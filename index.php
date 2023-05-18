@@ -250,7 +250,9 @@
         
         echo "<h2>Logical Operators: Logical XOR</h2>";
 
-        echo "<h3>Logical Operators: NOT EQUAL";
+        echo "<h3>Logical Operators: NOT EQUAL</h3>";
+
+        echo "<h2>Increment and Decremet</h2>";
         ?>
         
     </section>
