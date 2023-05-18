@@ -272,6 +272,14 @@
         ?>
         
     </section>
+
+    <br>
+    <hr>
+    
+    <!-- ******************************SECTION7****************************** -->
+    <section>
+        <h2>Control Structures</h2>
+    </section>
     <div id="mydiv"></div>
 
     <script>
