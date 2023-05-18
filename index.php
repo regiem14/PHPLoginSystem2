@@ -196,7 +196,10 @@
         
         echo "<p>Value of string data type</p>";
         $name = "Regie";
-        echo "I am " . $name;
+        echo "I am " . $name . "<br>";
+
+        $number = 14;
+        echo "My favorite number is " . "<b>$number</b>";
         ?>
     </section>
     <div id="mydiv"></div>
