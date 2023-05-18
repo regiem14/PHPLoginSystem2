@@ -239,6 +239,11 @@
 
         <h3>Assignment Operators</h3>
 
+        <br>
+        
+        <?php
+        echo "<h2>Comparison Operators</h2>"
+        ?>
     </section>
     <div id="mydiv"></div>
 
