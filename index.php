@@ -286,6 +286,13 @@
         
         <h4>Loop's</h4>
     </section>
+
+    <!-- ******************************SECTION8****************************** -->
+    <section>
+        <?php
+        echo "<h2>Break and Continou Statements</h2>"
+        ?>
+    </section>
     <div id="mydiv"></div>
 
     <script>
