@@ -199,7 +199,10 @@
         echo "I am " . $name . "<br>";
 
         $number = 14;
-        echo "My favorite number is " . "<b>$number</b>";
+        echo "My favorite number is " . "<b>$number</b>" . "<br>";
+
+        $float = 1.1416;
+        echo "The float number is" . "<b>$float</b>";
         ?>
     </section>
     <div id="mydiv"></div>
