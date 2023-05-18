@@ -252,7 +252,23 @@
 
         echo "<h3>Logical Operators: NOT EQUAL</h3>";
 
-        echo "<h2>Increment and Decremet</h2>";
+        echo "<h2>Increment and Decrement</h2>";
+        
+        echo "<h2>String Operators</h2>";
+        $a = "My name ";
+        $b = "is Regie. ";
+        $c = $a . $b . "<br>" . "<br>";
+
+        echo $a . "<br>";
+
+        echo $b . "<br>";
+
+        echo $c . "<br>". "<br>";
+
+        $g = "My name is ";
+        $h = $g . ' Regie Marzan!';
+
+        echo $h;
         ?>
         
     </section>
