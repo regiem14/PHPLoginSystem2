@@ -177,6 +177,18 @@
             echo "Variable False";
         }
         ?>
+
+        <hr>
+
+        <h2>Declaring Variables</h2>
+        <?php
+        echo "<h3>Rules in declaring variables</h3>" . 
+        "<ul>" .
+        "<li>Don't start your variable name with a number</li>" .
+        "<li>A variable name can start with a letter and an underscore</li>" .
+        "<li>It is Case Sensitive</li>"
+        ;
+        ?>
     </section>
     <div id="mydiv"></div>
 
