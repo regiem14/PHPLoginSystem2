@@ -249,6 +249,8 @@
         echo "<h2>Logical Operators: Logical OR ||</h2>";
         
         echo "<h2>Logical Operators: Logical XOR</h2>";
+
+        echo "<h3>Logical Operators: NOT EQUAL";
         ?>
         
     </section>
