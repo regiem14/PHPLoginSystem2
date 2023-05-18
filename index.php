@@ -52,7 +52,7 @@
         <p>This is paragraph element</p>
 
         <br>
-        
+
         <?php
         echo "Hello Worlds! I'm Regie <br>";
         echo "This is pargraph inside";
@@ -61,7 +61,31 @@
     </section>
     
     <br>
+    <hr>
+
+    <!-- ******************************SECTION3****************************** -->
+    <section>
+    <h2>WO escaping</h2>
+        <?php
+        if(1 == 1){
+            echo "<p>if statement</p>";
+        }
     
+        echo "<br>";
+        ?>
+
+        <h2>W escaping</h2>
+        <?php
+        if(1 == 2){
+        ?>
+    
+        <p>if not</p>
+
+        <?php
+        }
+        ?>
+    </section>
+
     <div id="mydiv"></div>
 
     <script type="text/babel">
