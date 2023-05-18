@@ -226,7 +226,10 @@
     <!-- ******************************SECTION6****************************** -->
     <section>
         <h2>Expression in PHP</h2>
+        
+        <br>
 
+        <h2>Operators</h2>
     </section>
     <div id="mydiv"></div>
 
