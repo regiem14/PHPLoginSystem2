@@ -186,8 +186,17 @@
         "<ul>" .
         "<li>Don't start your variable name with a number</li>" .
         "<li>A variable name can start with a letter and an underscore</li>" .
-        "<li>It is Case Sensitive</li>"
-        ;
+        "<li>It is Case Sensitive</li>";
+        ?>
+
+        <hr>
+
+        <?php
+        print "<h2>Coding Challenge for Varibales</h2>";
+        
+        echo "<p>Value of string data type</p>";
+        $name = "Regie";
+        echo "I am " . $name;
         ?>
     </section>
     <div id="mydiv"></div>
