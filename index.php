@@ -99,6 +99,41 @@
 
         <h2>Pseudo-Types</h2>
     </section>
+
+    <br>
+    <hr>
+    
+    <!-- ******************************SECTION5****************************** -->
+    <section>
+        <h2>String data types</h2>
+        <p>Cancelling in double qoutes</p>
+
+        <br>
+
+        <?php
+            echo 'I\'m learning how with strings in PHP. POwSQwEC';
+            echo "<br>";
+            echo "I'm learning how with strings in PHP. POwDQ";
+        ?>
+
+        <hr>
+
+        <h2>Interger Data Types</h2>
+        <?php
+            echo 20 . " Interger";
+
+            echo "<br>";
+
+            echo "20" . " String";
+        
+            echo "<br>";
+            
+            echo "<p>'10' is not equal to 10 in PHP.</p>";
+            if("10" === 10){
+                echo " is not the same data type?";
+            }
+        ?>
+    </section>
     <div id="mydiv"></div>
 
     <script type="text/babel">
