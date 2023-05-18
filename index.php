@@ -230,6 +230,10 @@
         <br>
 
         <h2>Operators</h2>
+
+        <br>
+
+        <h3>Arithmetic Operators</h3>
     </section>
     <div id="mydiv"></div>
 
