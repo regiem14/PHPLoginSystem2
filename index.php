@@ -56,7 +56,16 @@
         <?php
         echo "Hello Worlds! I'm Regie <br>";
         echo "This is pargraph inside";
-        echo "<p>This <b>paragraph</b>";
+        echo "<p>This <b>paragraph</b></p>";
+        ?>
+
+        <br>
+        <br>
+
+        <?php
+            echo "Print Statement W or WO () <br>";
+            print "Hello World! <br>";
+            print "Display output on the browser";
         ?>
     </section>
     
