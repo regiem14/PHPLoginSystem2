@@ -50,6 +50,14 @@
     <section>
         <h2>Two basic ways to get output</h2>
         <p>This is paragraph element</p>
+
+        <br>
+        
+        <?php
+        echo "Hello Worlds! I'm Regie <br>";
+        echo "This is pargraph inside";
+        echo "<p>This <b>paragraph</b>";
+        ?>
     </section>
     
     <br>
