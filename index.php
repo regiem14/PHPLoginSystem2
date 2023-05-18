@@ -41,9 +41,10 @@
     </section>
     
     <br>
-    
+    <hr>
+
     <section>
-        
+        <h2>Two basic ways to get output</h2>
     </section>
     
     <br>
