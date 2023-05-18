@@ -279,7 +279,10 @@
     <!-- ******************************SECTION7****************************** -->
     <section>
         <h2>Control Structures</h2>
+
         <h3>Conditional Statements</h3>
+
+        <h3>Switch Conditional Statements</h3>
     </section>
     <div id="mydiv"></div>
 
