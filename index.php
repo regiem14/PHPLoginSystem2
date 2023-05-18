@@ -279,6 +279,7 @@
     <!-- ******************************SECTION7****************************** -->
     <section>
         <h2>Control Structures</h2>
+        <h3>Conditional Statements</h3>
     </section>
     <div id="mydiv"></div>
 
