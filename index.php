@@ -242,9 +242,11 @@
         <br>
         
         <?php
-        echo "<h2>Comparison Operators</h2>" . "<br>";
+        echo "<h2>Comparison Operators</h2>";
         
-        echo "<h2>Logical Operatos</h2>"
+        echo "<h2>Logical Operators: Logical AND &&</h2>";
+
+        echo "<h2>Logical Operators: Logical OR ||</h2>";
         ?>
         
     </section>
