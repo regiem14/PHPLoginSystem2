@@ -142,6 +142,20 @@
                 echo " is not the same data type?";
             }
         ?>
+
+        <h2>Float Data Types</h2>
+        <?php
+            echo 24.5 . "<br>";
+            echo 10.35 . "<br>";
+            echo 1000.12345 . "<br>";
+
+            echo "<br>";
+            echo "<br>";
+
+            echo "flaot data types: " . 20.5 . "<br>";
+            echo "define a float: " . '20.5f';
+
+        ?>
     </section>
     <div id="mydiv"></div>
 
