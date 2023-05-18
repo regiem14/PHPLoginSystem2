@@ -49,6 +49,7 @@
     <!-- ******************************SECTION2****************************** -->
     <section>
         <h2>Two basic ways to get output</h2>
+        <p>This is paragraph element</p>
     </section>
     
     <br>
