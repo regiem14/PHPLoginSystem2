@@ -14,6 +14,8 @@
     <header>
         <div class="header">
         <?php
+        echo "Regie is Here for PHP script with single quotes";
+        echo "<br>";
         echo "Regie is Here for PHP script";
         ?>
         </div>
@@ -21,6 +23,7 @@
 
     <br>
     
+    <!-- ******************************SECTION1****************************** -->
     <section>
         <h2>There is another PHP Login System</h2>
         <ul>
@@ -43,6 +46,7 @@
     <br>
     <hr>
 
+    <!-- ******************************SECTION2****************************** -->
     <section>
         <h2>Two basic ways to get output</h2>
     </section>
