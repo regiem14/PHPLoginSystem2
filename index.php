@@ -86,6 +86,19 @@
         ?>
     </section>
 
+    <br>
+    <hr>
+
+    <!-- ******************************SECTION4****************************** -->
+    <section>
+        <h2>Scalar data types</h2>
+        
+        <h2>Compound</h2>
+
+        <h2>Special</h2>
+
+        <h2>Pseudo-Types</h2>
+    </section>
     <div id="mydiv"></div>
 
     <script type="text/babel">
