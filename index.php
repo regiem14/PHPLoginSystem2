@@ -18,6 +18,9 @@
         ?>
         </div>
     </header>
+
+    <br>
+    
     <section>
         <h2>There is another PHP Login System</h2>
         <ul>
@@ -26,7 +29,19 @@
             <li>You can review</li>
             <li>You can see videos</li>
         </ul>
+
+        <hr>
+
+        <h2>Programming paradigm</h2>
+
+        <hr>
+        
+        <h2>What can PHP Do?</h2>
+
     </section>
+    
+    <br>
+    
     <div id="mydiv"></div>
 
     <script type="text/babel">
