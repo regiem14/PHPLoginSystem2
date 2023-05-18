@@ -202,10 +202,39 @@
         echo "My favorite number is " . "<b>$number</b>" . "<br>";
 
         $float = 1.1416;
-        echo "The float number is" . "<b>$float</b>";
+        echo "The float number is" . "<b>$float</b>" . "<br>";
+
+        echo "<hr>";
+
+        echo "<h2>Constants in PHP</h2>";
+        CONST PI = 3.14;
+        CONST BALL_HEIGHT = 5;
+        CONST BALL_WIDTH = 5;
+
+        echo PI . "<br>";
+        echo "The ball width is " . BALL_WIDTH . "<br>";
+        echo "The ball height is " . BALL_HEIGHT;
+
+        CONST PLAYER_HEIGHT = 5;
+
         ?>
     </section>
+
+    <br>
+    <hr>
+
+    <!-- ******************************SECTION6****************************** -->
+    <section>
+        <h2>Expression in PHP</h2>
+
+    </section>
     <div id="mydiv"></div>
+
+    <script>
+        const PLAYER_SPEED;
+        PLAYER_SPEED = 10;
+        console.log(PLAYER_SPEED);
+    </script>
 
     <script type="text/babel">
       function Hello() {
