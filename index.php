@@ -143,6 +143,8 @@
             }
         ?>
 
+        <hr>
+        
         <h2>Float Data Types</h2>
         <?php
             echo 24.5 . "<br>";
@@ -154,7 +156,14 @@
 
             echo "flaot data types: " . 20.5 . "<br>";
             echo "define a float: " . '20.5f';
+        ?>
 
+        <hr>
+        
+        <h2>Adding Line Breaks</h2>
+        <?php
+        echo nl2br("if you view the page source \n you'll find a new line in this string") . "<br>";
+        echo "if you view the page source \n you'll find a new line in this string";
         ?>
     </section>
     <div id="mydiv"></div>
