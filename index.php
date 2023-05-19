@@ -305,6 +305,14 @@
     <!-- ******************************SECTION9****************************** -->
     <section>
          <h2>Include and Require</h2>
+
+        <?php
+            include 'includes/test1.php';
+            include_once 'includes/test1.php';
+            require 'test.php';
+            require_once 'test.php';
+
+        ?>
     </section>
     <div id="mydiv"></div>
 
