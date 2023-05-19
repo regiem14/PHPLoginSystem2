@@ -287,6 +287,9 @@
         <h4>Loop's</h4>
     </section>
 
+    <br>
+    <hr>
+
     <!-- ******************************SECTION8****************************** -->
     <section>
         <?php
@@ -294,6 +297,14 @@
 
         echo "<h2>Continue Statements</h2>";
         ?>
+    </section>
+
+    <br>
+    <hr>
+    
+    <!-- ******************************SECTION9****************************** -->
+    <section>
+         <h2>Include and Require</h2>
     </section>
     <div id="mydiv"></div>
 
