@@ -290,7 +290,9 @@
     <!-- ******************************SECTION8****************************** -->
     <section>
         <?php
-        echo "<h2>Break and Continou Statements</h2>"
+        echo "<h2>Break and Continou Statements</h2>";
+
+        echo "<h2>Continue Statements</h2>";
         ?>
     </section>
     <div id="mydiv"></div>
