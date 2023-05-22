@@ -16,6 +16,24 @@ include_once 'includes/header.php';
             ?>
         </div>
     </section>
+
+    <br>
+    <hr>
+
+    <section>
+        <div class="form">
+            <form action="funcCalc.php" method="get">
+                <input type="text" name="num1" placeholder="Number1">
+                <select name="operations">
+                    <label for="operations">Arithmetic Operations</label>
+                    <option value="add">Add</option>
+                    <option value="subtract">Subtract</option>
+                </select>
+                <input type="text" name="num2" placeholder="Number2">
+                <button type="submit">Calculate</button>
+            </form>
+        </div>
+    </section>
 </main>
 
 <?php
