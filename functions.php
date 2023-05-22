@@ -10,6 +10,9 @@ include_once 'includes/header.php';
             
             <?php
             echo "<h2>Built in Functions or Internal Functions to the languages</h2>";
+            echo "<br>" . "<hr>";
+
+            echo "<h2>User Defined Function</h2>";
             ?>
         </div>
     </section>
