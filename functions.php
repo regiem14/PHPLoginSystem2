@@ -1,10 +1,10 @@
 <?php
-include_once 'header.php';
+include_once 'includes/header.php';
 ?>
 
 <main>
     <section>
-        <div class="about">
+        <div class="functions">
             
         </div>
     </section>
