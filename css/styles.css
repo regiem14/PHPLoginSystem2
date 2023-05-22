@@ -6,6 +6,11 @@
 
 body{
     background-color: lightgreen;
+    text-align: center;
+}
+
+.main{
+    text-align: center;
     margin: 2%;
 }
 
