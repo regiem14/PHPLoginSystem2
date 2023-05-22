@@ -12,3 +12,10 @@ body{
 .header{
     height: 100vh;
 }
+
+footer{
+    height: 20vh;
+    background-color: rgba(0, 255, 255, 0.205);
+    color: lawngreen;
+    text-align: center;
+}

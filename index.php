@@ -314,11 +314,18 @@
 
         ?>
     </section>
-    <div id="mydiv"></div>
+    
+    <br>
+    <hr>
+    
+    <!-- ******************************SECTION10****************************** -->
+    <section>
+        <h2>React Section</h2>
+        <div id="mydiv"></div>
+    </section>
 
     <script>
-        const PLAYER_SPEED;
-        PLAYER_SPEED = 10;
+        const PLAYER_SPEED = 10;
         console.log(PLAYER_SPEED);
     </script>
 
