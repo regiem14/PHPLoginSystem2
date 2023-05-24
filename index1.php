@@ -18,6 +18,8 @@
     <h2>MVC Model</h2>
 
     <h3>Tasks of PHP</h3>
+    
+    <h2>FirstClass</h2>
     <?php 
             class Fruit{
                 public $name;
@@ -40,6 +42,14 @@
         echo $apple->getName();
         echo "<br>";
         echo $banana->getName();
-        ?>
+    ?>
+    
+    <hr>
+    
+    <?php
+    include_once 'includes/FirstClass.php';
+    ?>
+    
+    <hr>
 </body>
 </html>
