@@ -12,5 +12,11 @@
     <br>
 
     <h2>Why Use OOP?</h2>
+    
+    <br>
+
+    <h2>MVC Model</h2>
+
+    <h3>Tasks of PHP</h3>
 </body>
 </html>
