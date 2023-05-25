@@ -91,12 +91,18 @@
     echo $CherryM->getModel() . "<br>";
     echo $CherryM->getColor();
     ?>
+    
     <hr>
     <br>
 
     <?php
     echo "<h3>Coding Challenge Visibility and Inheritance</h3>";
     ?>
+
+    <hr>
+    <br>
+
+    <h2>Constructors, Continuation and Destructors</h2>
 
 </body>
 </html>
