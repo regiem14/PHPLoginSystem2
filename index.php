@@ -87,6 +87,8 @@
     
     <?php
     include_once 'includes/Construct.php';
+
+    echo $CherryM->getModel();
     ?>
     <hr>
     <br>

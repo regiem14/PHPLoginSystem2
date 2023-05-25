@@ -13,4 +13,4 @@ class App{
 }
 
 $CherryM = new App();
-$CherryM->setName('CherryM');
+$CherryM->setModel('CherryM');
