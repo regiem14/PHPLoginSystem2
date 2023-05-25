@@ -1,6 +1,6 @@
 <?php
 
-class Pi{
+class PI{
     static $pi = 3.14;
 
     static function staticMethod(){

@@ -148,7 +148,10 @@
     Person3::setDrinkingAge(19);
     echo Person3::$drinkingAge;
 
+    include_once 'includes/User.php';
+    
     echo "<hr> <br> <h3>Second Example For Constant PI</h3>";
+    echo PI::staticMethod();
     ?>
 
     <hr>
