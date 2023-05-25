@@ -59,6 +59,28 @@
     <hr>
 
     <h2>Constructs</h2>
+
+    <?php 
+        class Fruit1{
+            public $name;
+            public $color;
+
+            function __construct($name){
+                $this->name= $name;
+            }
+
+            function getName(){
+                return $this->name;
+            }
+        }
+
+        $apple = new Fruit1("Apple");
+        $banana = new Fruit1("Banana");
+
+        echo $apple->getName();
+        echo "<br>";
+        echo $banana->getName();
+    ?>
     
     <hr>
 </body>
