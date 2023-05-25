@@ -18,6 +18,6 @@ class DeleteObject{
 
     public function __destruct()
     {
-        echo "end of deleteObject class. <br>";
+        echo "end of deleteObject class. <br> <br>";
     }
 }

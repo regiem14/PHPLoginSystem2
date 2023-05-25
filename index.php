@@ -133,6 +133,7 @@
 
     $object = new DeleteObject();
     echo $object->getProperty();
+    unset($object);
     ?>
 
     <hr>
