@@ -88,7 +88,8 @@
     <?php
     include_once 'includes/Construct.php';
 
-    echo $CherryM->getModel();
+    echo $CherryM->getModel() . "<br>";
+    echo $golden->getColor();
     ?>
     <hr>
     <br>
