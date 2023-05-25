@@ -108,16 +108,24 @@
     
     $person2 = new Person("regie", "brown", 19);
     
-    echo $person2->getName() . "<br>";
-    echo $person2->getEyeColor() . "<br>";
-    echo $person2->getAge() . "<br>";
+    // echo $person2->getName() . "<br>";
+    // echo $person2->getEyeColor() . "<br>";
+    // echo $person2->getAge() . "<br>";
     ?>
     
     <hr>
     <br>
 
     <?php
-    echo "<h3>Construct Destruct Coding Challanges</h3>"
+    echo "<h3>Construct Destruct Coding Challanges</h3>";
+    include_once 'includes/Personality.php';
+    
+    $Personality = new Personality("Shy", "Honest", "Kind")
     ?>
+
+    <hr>
+    <br>
+
+    <h2>Destruct</h2>
 </body>
 </html>
