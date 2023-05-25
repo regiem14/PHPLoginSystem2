@@ -139,6 +139,11 @@
     <hr>
     <br>
 
+    <h2>Static Properties and Methods</h2>
+
+    <hr>
+    <br>
+
     <h2>Destruct</h2>
 </body>
 </html>
