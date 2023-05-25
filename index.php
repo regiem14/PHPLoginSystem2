@@ -103,6 +103,14 @@
     <br>
 
     <h2>Constructors, Continuation and Destructors</h2>
-
+    <?php
+    include_once 'includes/Person.php';
+    
+    $person2 = new Person("regie", "brown", 19);
+    
+    echo $person2->getName() . "<br>";
+    echo $person2->getEyeColor() . "<br>";
+    echo $person2->getAge() . "<br>";
+    ?>
 </body>
 </html>
