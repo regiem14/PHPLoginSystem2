@@ -147,6 +147,8 @@
     echo Person3::$drinkingAge . "<br>";
     Person3::setDrinkingAge(19);
     echo Person3::$drinkingAge;
+
+    echo "<hr> <br> <h3>Second Example For Constant PI</h3>";
     ?>
 
     <hr>
