@@ -4,6 +4,7 @@ class PI{
     static $pi = 3.14;
 
     static function staticMethod(){
-        return self::$pi;    
+        $description = "mathetics, value of PI .";
+        return $description . " " . self::$pi;    
     }
 }
