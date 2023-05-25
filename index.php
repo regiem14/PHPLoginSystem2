@@ -140,6 +140,14 @@
     <br>
 
     <h2>Static Properties and Methods</h2>
+    
+    <?php
+    include_once 'includes/Static.php';
+
+    echo Person3::$drinkingAge . "<br>";
+    Person3::setDrinkingAge(19);
+    echo Person3::$drinkingAge;
+    ?>
 
     <hr>
     <br>
