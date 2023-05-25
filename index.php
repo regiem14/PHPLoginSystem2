@@ -94,5 +94,9 @@
     <hr>
     <br>
 
+    <?php
+    echo "<h3>Coding Challenge Visibility and Inheritance</h3>";
+    ?>
+
 </body>
 </html>
