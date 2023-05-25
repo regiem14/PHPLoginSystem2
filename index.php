@@ -122,6 +122,18 @@
     
     $Personality = new Personality("Shy", "Honest", "Kind")
     ?>
+    
+    <hr>
+    <br>
+
+    <?php
+    echo "<h2>Deleting Objects</h2>";   
+
+    include_once 'includes/Delete.php';
+
+    $object = new DeleteObject();
+    echo $object->getProperty();
+    ?>
 
     <hr>
     <br>
