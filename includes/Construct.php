@@ -3,11 +3,8 @@ class App{
     public $model;
     public $color;
 
-    function setModel($model){
+    function __construct($model, $color){
         $this->model= $model;
-    }
-
-    function setColor($color){
         $this->color= $color;
     }
     
@@ -20,8 +17,5 @@ class App{
     }
 }
 
-$CherryM = new App();
-$CherryM->setModel('CherryM');
-
-$golden = new App();
-$golden->setColor('golden');
+$CherryM = new App('CherryM' , 'golden');
+// $golden = new App('golden');
