@@ -57,6 +57,7 @@
     ?>
 
     <hr>
+    <br>
 
     <h2>Constructs</h2>
 
@@ -82,6 +83,13 @@
         echo $banana->getName();
     ?>
     
+    <h3>Coding Challenge</h3>
+    
+    <?php
+    include_once 'includes/Construct.php';
+    ?>
     <hr>
+    <br>
+
 </body>
 </html>
