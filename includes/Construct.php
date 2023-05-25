@@ -9,5 +9,8 @@ class App{
     function getModel(){
         return $this->model;
     }
-// $golden = new App('golden');
+    // $golden = new App('golden');
 }
+
+$CherryM = new App();
+$CherryM->setName('CherryM');
