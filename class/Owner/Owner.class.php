@@ -14,7 +14,7 @@ class Owner {
         $this->age = $newAge;
     }
 
-    public function setOwnerName($newAge){
+    public function setOwnerName($newName){
         $this->name=$newName;
     }
 
