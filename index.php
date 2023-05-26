@@ -48,7 +48,7 @@ include_once 'includes/header.php';
 
     echo "<br>";
 
-    include_once 'includes/FirstClass.php';
+    include_once 'class/FirstClass.php';
     ?>
 
     <hr>
@@ -81,7 +81,7 @@ include_once 'includes/header.php';
     <h3>Coding Challenge</h3>
     
     <?php
-    include_once 'includes/Construct.php';
+    include_once 'class/Construct.php';
 
     echo $CherryM->getModel() . "<br>";
     echo $CherryM->getColor();
@@ -99,7 +99,7 @@ include_once 'includes/header.php';
 
     <h2>Constructors, Continuation and Destructors</h2>
     <?php
-    include_once 'includes/Person.php';
+    include_once 'class/Person.php';
     
     $person2 = new Person("regie", "brown", 19);
     
@@ -113,7 +113,7 @@ include_once 'includes/header.php';
 
     <?php
     echo "<h3>Construct Destruct Coding Challanges</h3>";
-    include_once 'includes/Personality.php';
+    include_once 'class/Personality.php';
     
     $Personality = new Personality("Shy", "Honest", "Kind")
     ?>
@@ -124,7 +124,7 @@ include_once 'includes/header.php';
     <?php
     echo "<h2>Deleting Objects</h2>";   
 
-    include_once 'includes/Delete.php';
+    include_once 'class/Delete.php';
 
     $object = new DeleteObject();
     echo $object->getProperty();
@@ -137,9 +137,9 @@ include_once 'includes/header.php';
     <h2>Static Properties and Methods</h2>
     
     <?php
-    include_once 'includes/Static.php';
-    include_once 'includes/User.php';
-    include_once 'includes/Static-Procedural.php';
+    include_once 'class/Static.php';
+    include_once 'class/User.php';
+    include_once 'class/Static-Procedural.php';
 
     echo Person3::$drinkingAge . "<br>";
     Person3::setDrinkingAge(19);
