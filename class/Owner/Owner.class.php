@@ -19,6 +19,6 @@ class Owner {
     }
 
     public function getOwnerName(){
-        return "the owner " . " " . $this->name . "and his age is " . $this->age . "years old";
+        return "the owner " . $this->name . " and his age is " . $this->age . " years old";
     }
 }

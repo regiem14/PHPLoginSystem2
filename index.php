@@ -160,7 +160,10 @@ include_once 'includes/autoloader.inc.php   ';
 
     <?php
     $owner1 = new Owner\Owner('Regie', 'gray', 19);
-    echo $owner1->getOwnerName();
+    echo $owner1->getOwnerName() . "<br> <br>";
+
+    $houseAddress = new House('Metro Manila', 1336);
+    echo $houseAddress->getAddress();
     ?>
 
     <hr>
