@@ -1,6 +1,8 @@
 <?php
 include_once 'includes/header.php';
+include_once 'includes/autoloader.inc.php   ';
 ?>
+
 <body>
     <h1>OOP - Object Oreinted Programming</h1>
 
