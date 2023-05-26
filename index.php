@@ -143,15 +143,17 @@
     
     <?php
     include_once 'includes/Static.php';
+    include_once 'includes/User.php';
+    include_once 'includes/Static-Procedural.php';
 
     echo Person3::$drinkingAge . "<br>";
     Person3::setDrinkingAge(19);
     echo Person3::$drinkingAge;
-
-    include_once 'includes/User.php';
     
     echo "<hr> <br> <h3>Second Example For Constant PI</h3>";
-    echo PI::staticMethod();
+    echo PI::staticMethod() . "<br> <br>";
+
+    echo $information;
     ?>
 
     <hr>
