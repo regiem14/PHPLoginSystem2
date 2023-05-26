@@ -156,6 +156,11 @@ include_once 'includes/autoloader.inc.php   ';
     <hr>
     <br>
 
+    <h2>Autoload and Namespace</h2>
+
+    <hr>
+    <br>
+
     <h2>Destruct</h2>
 </body>
 </html>
