@@ -158,6 +158,11 @@ include_once 'includes/autoloader.inc.php   ';
 
     <h2>Autoload and Namespace</h2>
 
+    <?php
+    $owner1 = new Owner\Owner('Regie', 'gray', 19);
+    echo $owner1->getOwnerName();
+    ?>
+
     <hr>
     <br>
 
